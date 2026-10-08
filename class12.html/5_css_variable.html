@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+      --primary:#3498db;
+      --primary-dark: #2980b9;
+      --text: rgb(245, 93, 93);
+      --radius: 8px;
+      --fonts: sans-serif;
+      --spacing:10px;
+
+    }
+    body{
+        font-famiy:var(--fonts);
+        color: var(--text);
+        padding: var(--spacing);
+    }
+    button{
+        background-color: var(--primary);
+        color:whitesmoke;
+        padding: var(--spacing);
+        border: none;
+        border-radius: var(--radius);
+        cursor:pointer;
+    }
+    button:hover {
+        background-color: var(--primary-dark);
+    }
+    .card{
+        border: 2px solid var(--primary);
+        border-radius: var(--radius);
+        padding: var(--spacing);
+        margin-top: var(--spacing);
+    }
+</style>
+<body>
+    <button> CLICK ME</button>
+    <div class="card">
+        <h2> Card Title</h2>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Nemo omnis veniam voluptatem, dolorum eius, esse cum ex est impedit placeat asperiores.
+              Esse quod officia ad nam distinctio alias ut quo ratione aperiam!
+               Praesentium optio magnam officiis aliquam excepturi est unde tempora. 
+               Nihil blanditiis voluptatibus, asperiores inventore ducimus ipsa? Nisi, exercitationem..</p>
+    </div>
+    
+</body>
+</html>
